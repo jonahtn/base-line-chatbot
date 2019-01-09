@@ -30,7 +30,7 @@ class WebhookController extends Controller
     public function index()
     {
         if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-            echo 'bubu';
+            echo 'bubu-botbot line chat';
             header('HTTP/1.1 400 Only POST method allowed');
             exit;
         }
