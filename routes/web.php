@@ -12,7 +12,7 @@
 */
 
 $router->get('/', function () use ($router) {
-    echo 'みなさん、こんにちは';
+    echo 'baba';
 });
 
 $router->post('/webhook', 'WebhookController@index');
